@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-home{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 10% 0 1% ;
+}
+.login .log-img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.home-content .login{
+    background-color: #ffffff;
+    height: 100%;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    padding: 0 10% 0% 10%;
+
+}
+.home-content .login img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.home-content .login .form-page{
+    width: 100%;
+    height: 100%;
+}
+
+.home-content .login .form-page .input{
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 33px;
+    outline: none;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: transparent;
+}
+.home-content .login .form-page .btn{
+    display: flex;
+    width: 282px;
+    flex-direction: column;
+    width: 100%;
+}
+.form-page .btn input{
+    height: 33px;
+    background-color: rgba(0, 101, 224, 0.926);
+    margin-bottom: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+
+}
+.form-page form p{
+    display: flex;
+    justify-content: space-around;
+}
+.ligne{
+    display: block;
+    background-color: #dbdbdb;
+    height: 1px;
+    width: 100%;
+}
+.or{
+    margin-bottom: 20px;
+}
+
+.fb .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb .account i{ 
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.account{
+    margin-bottom: 20px;
+}
+.fb .forget{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(18, 1, 85, 0.66);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.fb .account .log-fb{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(85, 1, 1);
+}
+
+.sing-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 453px;
+    height: 75px;
+    gap: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sing-up a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(0, 101, 224, 0.926);
+}
+.app p{
+    width: 453px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.app .img-app{
+    display: flex;
+    justify-content: space-around;
+    width: 453px
+}
+.app .img-app img{
+    width: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#fafafa;
+    height: 19vh;
+    width: 100%;
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(18, 1, 85, 0.66);
+    margin: 0 7px 0 7px;
+}
+footer .link{
+    margin-bottom: 7px;
+}
+
+/*hover*/
+
+.form-page .btn input:hover{
+    background-color: rgba(0, 101, 224, 0.556);
+}
+.fb .account .log-fb:hover,.fb .forget:hover{
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.sing-up a:hover{
+    color: rgba(0, 101, 224, 0.549);
+}
+.app .img-app img:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+footer a:hover{
+    color: rgba(0, 101, 224, 0.549);
+    transition: 0.1s;
+}
+/*focus*/
+
+.home-content .login .form-page .input:focus{
+    scale:1.1 ;
+    transition: 0.5s;
+    border: solid 0.5px rgb(0, 0, 0);
+}
